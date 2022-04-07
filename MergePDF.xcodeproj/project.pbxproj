@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C202F2A27FE1388005EB0AE /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C202F2927FE1388005EB0AE /* PdfViewController.swift */; };
+		2C202F2C27FE2F76005EB0AE /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C202F2B27FE2F76005EB0AE /* FileModel.swift */; };
+		2C202F2E27FE3306005EB0AE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C202F2D27FE3306005EB0AE /* MainViewModel.swift */; };
+		2C202F3027FE3415005EB0AE /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C202F2F27FE3415005EB0AE /* FileHelper.swift */; };
+		2C2A1C0027FEA6BE000CE397 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A1BFF27FEA6BE000CE397 /* UIButton+Extension.swift */; };
 		2CDFE78327FDB1C100415FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFE78227FDB1C100415FC7 /* AppDelegate.swift */; };
 		2CDFE78527FDB1C100415FC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFE78427FDB1C100415FC7 /* SceneDelegate.swift */; };
-		2CDFE78727FDB1C100415FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFE78627FDB1C100415FC7 /* ViewController.swift */; };
+		2CDFE78727FDB1C100415FC7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFE78627FDB1C100415FC7 /* MainViewController.swift */; };
 		2CDFE78A27FDB1C100415FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDFE78827FDB1C100415FC7 /* Main.storyboard */; };
 		2CDFE78C27FDB1C500415FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDFE78B27FDB1C500415FC7 /* Assets.xcassets */; };
 		2CDFE78F27FDB1C500415FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDFE78D27FDB1C500415FC7 /* LaunchScreen.storyboard */; };
+		E26B02DE9D65EF821478B5E8 /* Pods_MergePDF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53EFA32E713F5AAAA4D2D43B /* Pods_MergePDF.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C202F2927FE1388005EB0AE /* PdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
+		2C202F2B27FE2F76005EB0AE /* FileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileModel.swift; sourceTree = "<group>"; };
+		2C202F2D27FE3306005EB0AE /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		2C202F2F27FE3415005EB0AE /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		2C2A1BFF27FEA6BE000CE397 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		2CDFE77F27FDB1C100415FC7 /* MergePDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergePDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDFE78227FDB1C100415FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDFE78427FDB1C100415FC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CDFE78627FDB1C100415FC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CDFE78627FDB1C100415FC7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2CDFE78927FDB1C100415FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CDFE78B27FDB1C500415FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CDFE78E27FDB1C500415FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CDFE79027FDB1C500415FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EFA32E713F5AAAA4D2D43B /* Pods_MergePDF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergePDF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A11FACE637FFA77304AABD /* Pods-MergePDF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergePDF.debug.xcconfig"; path = "Target Support Files/Pods-MergePDF/Pods-MergePDF.debug.xcconfig"; sourceTree = "<group>"; };
+		C7273584F61159381D7FCB68 /* Pods-MergePDF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergePDF.release.xcconfig"; path = "Target Support Files/Pods-MergePDF/Pods-MergePDF.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26B02DE9D65EF821478B5E8 /* Pods_MergePDF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0600FCA7F1A1244ADCE25090 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0A11FACE637FFA77304AABD /* Pods-MergePDF.debug.xcconfig */,
+				C7273584F61159381D7FCB68 /* Pods-MergePDF.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2C2A1C0127FEB04A000CE397 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2CDFE78827FDB1C100415FC7 /* Main.storyboard */,
+				2CDFE78D27FDB1C500415FC7 /* LaunchScreen.storyboard */,
+				2CDFE78227FDB1C100415FC7 /* AppDelegate.swift */,
+				2CDFE78427FDB1C100415FC7 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2C2A1C0227FEB076000CE397 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A1BFF27FEA6BE000CE397 /* UIButton+Extension.swift */,
+				2C202F2F27FE3415005EB0AE /* FileHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2C2A1C0427FEB0B4000CE397 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C202F2B27FE2F76005EB0AE /* FileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C2A1C0527FEB0CC000CE397 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A1C0627FEB0DF000CE397 /* Main */,
+				2C2A1C0727FEB0FA000CE397 /* PDF */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		2C2A1C0627FEB0DF000CE397 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2CDFE78627FDB1C100415FC7 /* MainViewController.swift */,
+				2C202F2D27FE3306005EB0AE /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2C2A1C0727FEB0FA000CE397 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				2C202F2927FE1388005EB0AE /* PdfViewController.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		2C2A1C0827FEB127000CE397 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				2CDFE78B27FDB1C500415FC7 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
 		2CDFE77627FDB1C100415FC7 = {
 			isa = PBXGroup;
 			children = (
 				2CDFE78127FDB1C100415FC7 /* MergePDF */,
 				2CDFE78027FDB1C100415FC7 /* Products */,
+				0600FCA7F1A1244ADCE25090 /* Pods */,
+				8165785C8F4B89743026D4BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +144,22 @@
 		2CDFE78127FDB1C100415FC7 /* MergePDF */ = {
 			isa = PBXGroup;
 			children = (
-				2CDFE78227FDB1C100415FC7 /* AppDelegate.swift */,
-				2CDFE78427FDB1C100415FC7 /* SceneDelegate.swift */,
-				2CDFE78627FDB1C100415FC7 /* ViewController.swift */,
-				2CDFE78827FDB1C100415FC7 /* Main.storyboard */,
-				2CDFE78B27FDB1C500415FC7 /* Assets.xcassets */,
-				2CDFE78D27FDB1C500415FC7 /* LaunchScreen.storyboard */,
+				2C2A1C0127FEB04A000CE397 /* Application */,
+				2C2A1C0527FEB0CC000CE397 /* Flows */,
+				2C2A1C0227FEB076000CE397 /* Helpers */,
+				2C2A1C0427FEB0B4000CE397 /* Model */,
+				2C2A1C0827FEB127000CE397 /* Resourses */,
 				2CDFE79027FDB1C500415FC7 /* Info.plist */,
 			);
 			path = MergePDF;
+			sourceTree = "<group>";
+		};
+		8165785C8F4B89743026D4BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53EFA32E713F5AAAA4D2D43B /* Pods_MergePDF.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CDFE79327FDB1C500415FC7 /* Build configuration list for PBXNativeTarget "MergePDF" */;
 			buildPhases = (
+				5E10FF7E32C32743876EE2AA /* [CP] Check Pods Manifest.lock */,
 				2CDFE77B27FDB1C100415FC7 /* Sources */,
 				2CDFE77C27FDB1C100415FC7 /* Frameworks */,
 				2CDFE77D27FDB1C100415FC7 /* Resources */,
+				AD4A6CC62DB66DF1CB691FF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +230,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E10FF7E32C32743876EE2AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MergePDF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4A6CC62DB66DF1CB691FF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MergePDF/Pods-MergePDF-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MergePDF/Pods-MergePDF-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MergePDF/Pods-MergePDF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CDFE77B27FDB1C100415FC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDFE78727FDB1C100415FC7 /* ViewController.swift in Sources */,
+				2CDFE78727FDB1C100415FC7 /* MainViewController.swift in Sources */,
 				2CDFE78327FDB1C100415FC7 /* AppDelegate.swift in Sources */,
+				2C202F2C27FE2F76005EB0AE /* FileModel.swift in Sources */,
 				2CDFE78527FDB1C100415FC7 /* SceneDelegate.swift in Sources */,
+				2C202F2A27FE1388005EB0AE /* PdfViewController.swift in Sources */,
+				2C2A1C0027FEA6BE000CE397 /* UIButton+Extension.swift in Sources */,
+				2C202F3027FE3415005EB0AE /* FileHelper.swift in Sources */,
+				2C202F2E27FE3306005EB0AE /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +428,7 @@
 		};
 		2CDFE79427FDB1C500415FC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A11FACE637FFA77304AABD /* Pods-MergePDF.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +457,7 @@
 		};
 		2CDFE79527FDB1C500415FC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7273584F61159381D7FCB68 /* Pods-MergePDF.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
